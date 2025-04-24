@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "filesystem-editor": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\@modelcontextprotocol\\server-filesystem\\dist\\index.js"
+        
+      ],
+      "env": {
+        
+      }
+    },
+ 
+   "quant-godot": {
+          "command": "C:\\Users\\admin\\.conda\\envs\\py310a\\python.exe",
+          "args": ["D:\\pywork\\quant\\a_mcp\\godot_mcp_last.py"], 
+          "env": {
+        "MCP_TRANSPORT": "stdio" 
+         
+         
+       
+     
+    }}
+    ,
+   
+    "quant-mcp": {
+      "command": "C:\\Users\\admin\\.conda\\envs\\py310a\\python.exe",
+      "args": ["D:\\pywork\\quant\\a_mcp\\t.py"], 
+      "env": {
+        "MCP_TRANSPORT": "stdio" 
+      }
+    }
+   
+  }
+}
